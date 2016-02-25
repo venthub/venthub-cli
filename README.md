@@ -2,7 +2,7 @@
 Interactive VentHub Shell, for your interactive VentHub needs
 
 ## Usage
-Install the CLI via `npm i -g venthub-cli` and run the command `ventsh`.
+Install the CLI via `npm i -g ventsh` and run the command `ventsh`.
 
 ## Available Commands
 ### `start [port]`
