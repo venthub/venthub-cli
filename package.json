@@ -1,13 +1,16 @@
 {
   "name": "venthub-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Interactive VentHub Shell, for your interactive VentHub needs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "ventsh": "./index.js"
+  },
+  "author": "Alon Niv",
+  "license": "MIT",
   "dependencies": {
     "venthub": "^2.0.1",
     "vorpal": "^1.9.5"

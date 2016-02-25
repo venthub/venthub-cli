@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const $ = require('vorpal')();
@@ -56,4 +58,4 @@ $.command('publish <type> [payload] [fragment]')
     cb();
 });
 
-$.delimiter('venthub$').show();
+$.delimiter('vent$').show();
